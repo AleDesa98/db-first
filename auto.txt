@@ -1,0 +1,17 @@
+Nome tabella: auto
+
+id - intero - MEDIUMINT - PRIMARY KEY - AUTO_INCREMENT
+marca - stringa - VARCHAR(20) - NOTNULL
+modello - stringa - VARCHAR(30) - NOTNULL
+allestimento - stringa - VARCHAR(30) - NOTNULL
+optional - stringa - TEXT - NULL
+anno_immatricolazione - data - YEAR - NOTNULL
+luogo_immatricolazione - stringa - VARCHAR(30) - NOTNULL
+targa - stringa - CHAR(7) - NOTNULL
+numero_telaio - stringa - CHAR(17) - NOTNULL
+classe_ambientale - stringa - VARCHAR(2) - NOTNULL
+numero_proprietari - intero - TINYINT - DEFAULT 1
+alimentazione - stringa - VARCHAR(20) - NOTNULL
+cilindrata - intero - TINYINT - NOTNULL
+cavalli - intero - TINYINT - NOTNULL
+kilowatt - intero - TINYINT - NOTNULL
